@@ -93,28 +93,6 @@ class ForgotPasswordScreen extends StatelessWidget {
                   ),
                 ),
               ),
-
-              const SizedBox(height: 30),
-
-              // Register link
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const Text("You don't have an account? "),
-                  GestureDetector(
-                    onTap: () {
-                      // Naviguer vers l'écran d'enregistrement
-                    },
-                    child: const Text(
-                      "Register",
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                  ),
-                ],
-              ),
             ],
           ),
         ),
